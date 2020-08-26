@@ -3,7 +3,7 @@ import re
 
 def getLinks(url,href,cond, start):
     books = []
-    pages = [str(i) for i in range(start,2)]
+    pages = [str(i) for i in range(start,5)]
     for page in pages:
         if 'harvard' in url:
             page = str(int(page)*50)
